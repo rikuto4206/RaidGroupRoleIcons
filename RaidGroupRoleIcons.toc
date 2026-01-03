@@ -1,0 +1,8 @@
+## Interface: 110207
+## Version: 1.0.0
+## Title: RaidGroupRoleIcons
+## Notes: Displays role icons next to players names in the raid panel
+## Author: Riku
+## SavedVariables: RaidGroupRoleIcons
+
+RaidGroupRoleIcons.lua
