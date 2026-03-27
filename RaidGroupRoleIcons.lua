@@ -1,39 +1,8 @@
---local f = CreateFrame("Frame")
-
--- local defaults = {
--- 	debugMode = false,
--- }
-
--- RaidGroupRoleIcons_SavedVars = {}
-
 local roleIcons = {
     ["DAMAGER"] = "UI-LFG-RoleIcon-DPS",
     ["HEALER"] = "UI-LFG-RoleIcon-Healer",
     ["TANK"] = "UI-LFG-RoleIcon-Tank"
 }
-
--- local function OnSettingChanged(setting, value)
--- 	-- local variable = setting:GetVariable()
--- 	-- RaidGroupRoleIcons_SavedVars[variable] = value
--- end
-
-
--- local category = Settings.RegisterVerticalLayoutCategory("RaidGroupRoleIcons")
-
--- do
---     local variable = "RaidGroupRoleIcons_DebugMode"
---     local name = "Debug Mode"
---     local tooltip = "Enable debug mode for RaidGroupRoleIcons"
---     local variableKey = "DebugMode"
---     local variableTbl = RaidGroupRoleIcons_SavedVars
---     local defaultValue = false
-
--- 	local setting = Settings.RegisterAddOnSetting(category, variable, variableKey, variableTbl, type(defaultValue), name, defaultValue)
---     Settings.CreateCheckbox(category, setting, tooltip)
--- 	Settings.SetOnValueChangedCallback(variable, OnSettingChanged)
--- end
-
--- Settings.RegisterAddOnCategory(category)
 
 local function OnEvent(allstates, event, ...)
     local status = ...
