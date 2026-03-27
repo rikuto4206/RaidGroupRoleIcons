@@ -1,0 +1,4 @@
+package-as: RaidGroupRoleIcons
+
+ignore:
+  - docs/ExampleScreenshot.jpg
